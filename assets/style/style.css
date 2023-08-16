@@ -1,0 +1,190 @@
+* {
+    /*border: red solid 1px;*/
+    margin: 0px;
+    color: rgb(73, 72, 72);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(206, 206, 231, 0.5);
+}
+
+/*Navbar*/
+
+.decoration-none {
+    text-decoration: none;
+}
+
+/*Profile*/
+
+.img-round {
+    border-radius: 50px;
+    height: 80px;
+    width: 68px;
+}
+
+header, section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.445);
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;  
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.color-green {
+    color: rgba(136, 197, 136);
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.padding-sides {
+    padding: 0px 100px 0px 100px;
+}
+
+button {
+    padding: 10px;
+    border: 0px solid;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: rgba(206, 206, 231, 0.5);
+}
+
+
+/*Skills*/
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.background-green {
+    background-color: rgba(136, 197, 136, 0.452);
+}
+
+.border-round {
+    border-radius: 10px;
+}
+
+
+/*Experience*/
+
+.experience-size {
+    width: 200px;
+    margin: 10px;
+
+}
+
+.background-grey {
+    background-color: rgba(136, 197, 136, 0.11);
+}
+
+
+/*Education*/
+
+.container-max-height {
+    height: 400px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+#ed1-size {
+    height: 160px;
+    width: 105px;
+    padding: 3px;
+}
+
+#ed2-size {
+    height: 125px;
+    width: 105px;
+    padding: 3px;
+}
+
+#ed3-size {
+    height: 100px;
+    width: 105px;
+    padding: 3px;
+}
+
+#ed4-size {
+    height: 110px;
+    width: 105px;
+    padding: 3px;
+}
+
+
+
+
+@media (max-width: 540px) {
+    .card-style {
+      width: 300px;
+    }
+
+    .padding-sides {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .display-flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .height-500 {
+        height: 500px;
+    }
+
+  }
